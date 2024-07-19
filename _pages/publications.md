@@ -17,3 +17,8 @@ Full list of publications can be found on [Google Scholar](https://scholar.googl
 <b>Meilong Xu</b>, Linfeng Tang, Hao Zhang, Jiayi Ma<br>
 <i>Pattern Recognition 2022.</i>
 <span style="color:blue"></span> <a href="https://github.com/Melon-Xu/PSTLFusion/">[code]</a>
+
+<b>[STDFusionNet: An Infrared and Visible Image Fusion Network Based on Salient Target Detection](https://ieeexplore.ieee.org/document/9416507)</b> <br>
+Jiayi Ma, Linfeng Tang, <b>Meilong Xu</b>, Hao Zhang, Guobao Xiao<br>
+<i> IEEE Transactions on Instrumentation and Measurement 2021.</i>
+<span style="color:blue"></span> <a href="https://github.com/Linfeng-Tang/STDFusionNet/">[code]</a>
