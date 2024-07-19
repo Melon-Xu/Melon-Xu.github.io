@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Meilong Xu"
 title_separator          : "-"
 name                     : &name "Meilong Xu"
-description              : &description "personal description"
+description              : &description "CS Ph.D. student at SBU"
 url                      : https://melon-xu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "https://melon-xu.github.io" # the subpath of your site, e.g. "/blog"
 repository               : "Melon-Xu/Melon-Xu.github.io"
@@ -23,27 +23,27 @@ author:
   # Biographic information
   avatar           : "https://melon-xu.github.io/images/xml_avatar.jpg"
   name             : "Meilong Xu 徐梅隆"
-  pronouns         : # example: "she/her"  
+  pronouns         : 
   bio              : "CS Ph.D. student at SBU"
   location         : "Stony Brook, NY, US"
   employer         : "Stony Brook University"
-  uri              : # URL
-  email            : "meixu@cs.stonybrook.edu" 
+  uri              : 
+  email            : "meilongxu23@gmail.com" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=nphc_xcAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "https://github.com/Melon-Xu"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
