@@ -13,3 +13,21 @@ I am a Ph.D. student at the Department of Computer Science at Stony Brook Univer
 Before my Ph.D., I received my B.E. degree from Wuhan University in 2022, worked happily with [Prof. Jiayi Ma](https://sites.google.com/site/jiayima2013/) and [Linfeng Tang](https://github.com/Linfeng-Tang).
 
 I am broadly interested in medical image analysis, topological data analysis, generative models and multi-modal learning.
+
+# Recent News
+* Jul 01, 2024. A paper was accepted by ECCV 2024.
+
+# Education
+* <img width="75" height="75" src="https://melon-xu.github.io/images/sbu-logo.jpg"/> <br>
+<b>Stony Brook University (New York, US)</b> <br>
+Sep. 2022--Present<br>
+Ph.D. in Computer Science<br>
+Advisor: [Prof. Chao Chen](https://scholar.google.com/citations?user=J-iIIFAAAAAJ&hl=en). <br>
+
+* <img width="75" height="75" src="https://melon-xu.github.io/images/whu.png"/> <br>
+<b>Wuhan University (Wuhan, China)</b> <br>
+Sep. 2018--Jun. 2022<br>
+Bachelor in Electronic Information Engineering<br>
+GPA: 3.90/4.00 <br>
+<i>Research Assistant</i> on infrared and visible image fusion. <br>
+Advisor: [Prof. Jiayi Ma](https://sites.google.com/site/jiayima2013/). <br>
