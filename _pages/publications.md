@@ -12,6 +12,6 @@ Full list of publications can be found on [Google Scholar](https://scholar.googl
 <i>ECCV 2024.</i>
 
 # Before Ph.D.
-<b>[Infrared and visible image fusion via parallel scene and texture learning(https://www.sciencedirect.com/science/article/abs/pii/S0031320322004101)</b> <br>
+<b>[Infrared and visible image fusion via parallel scene and texture learning](https://www.sciencedirect.com/science/article/abs/pii/S0031320322004101)</b> <br>
 <b>Meilong Xu</b>, Linfeng Tang, Hao Zhang, Jiayi Ma<br>
 <i>Pattern Recognition.</i>
