@@ -18,7 +18,7 @@ I am broadly interested in medical image analysis, topological data analysis, ge
 * Jul 01, 2024. A paper was accepted by ECCV 2024.
 
 # Education
-* <img width="75" height="75" src="https://melon-xu.github.io/images/sbu-logo.jpg"/> <br>
+* <img width="75" height="75" src="https://melon-xu.github.io/images/sbu_logo.jpg"/> <br>
 <b>Stony Brook University (New York, US)</b> <br>
 Sep. 2022--Present<br>
 Ph.D. in Computer Science<br>
