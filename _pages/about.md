@@ -12,7 +12,7 @@ I am a Ph.D. student at the Department of Computer Science at Stony Brook Univer
 
 Before my Ph.D., I received my B.E. degree from Wuhan University in 2022, worked happily with [Prof. Jiayi Ma](https://sites.google.com/site/jiayima2013/) and [Linfeng Tang](https://github.com/Linfeng-Tang).
 
-I am broadly interested in medical image analysis, topological data analysis, generative models and multi-modal learning.
+I am broadly interested in medical image and topological data analysis, generative models and multi-modal learning.
 
 # Recent News
 * Jul 01, 2024. A paper was accepted by ECCV 2024.
