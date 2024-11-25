@@ -24,5 +24,8 @@ Jiayi Ma, Linfeng Tang, <b>Meilong Xu</b>, Hao Zhang, Guobao Xiao<br>
 <span style="color:blue"></span> <a href="https://github.com/Linfeng-Tang/STDFusionNet/">[code]</a>
 
 # Preprint
+<b>[TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model]</b> <br>
+<b>Meilong Xu</b>, Saumya Gupta, Xiaoling Hu, Chen Li, Shahira Abousamra, Dimitris Samaras, Prateek Prasanna, Chao Chen.<br>
+
 <b>[RankByGene: Gene-Guided Histopathology Representation Learning Through Cross-Modal Ranking Consistency](https://arxiv.org/abs/2411.15076)</b> <br>
 Wentao Huang, <b>Meilong Xu</b>, Xiaoling Hu, Shahira Abousamra, Aniruddha Ganguly, Saarthak Kapse, Alisa Yurovsky, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Michael L. Miller, Chao Chen<br>
