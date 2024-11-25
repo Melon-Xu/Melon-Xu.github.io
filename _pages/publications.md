@@ -22,3 +22,7 @@ Full list of publications can be found on [Google Scholar](https://scholar.googl
 Jiayi Ma, Linfeng Tang, <b>Meilong Xu</b>, Hao Zhang, Guobao Xiao<br>
 <i> IEEE Transactions on Instrumentation and Measurement 2021.</i>
 <span style="color:blue"></span> <a href="https://github.com/Linfeng-Tang/STDFusionNet/">[code]</a>
+
+# Preprint
+<b>[RankByGene: Gene-Guided Histopathology Representation Learning Through Cross-Modal Ranking Consistency](https://arxiv.org/abs/2411.15076)</b> <br>
+Wentao Huang, <b>Meilong Xu</b>, Xiaoling Hu, Shahira Abousamra, Aniruddha Ganguly, Saarthak Kapse, Alisa Yurovsky, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Michael L. Miller, Chao Chen<br>
