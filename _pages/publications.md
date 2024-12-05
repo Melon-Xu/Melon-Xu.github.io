@@ -11,8 +11,8 @@ Full list of publications can be found on [Google Scholar](https://scholar.googl
 <b>Meilong Xu</b>, Xiaoling Hu, Saumya Gupta, Shahira Abousamra, Chao Chen<br>
 <i>ECCV 2024.</i>
 <span style="color:blue"></span> <a href="https://github.com/Melon-Xu/TopoSemiSeg/">[code]</a>
-<span style="color:blue"></span> <a href="https://github.com/Melon-Xu/Melon-Xu.github.io/blob/master/files/ECCV_2024_TopoSemiSeg_Poster.pdf">[poster]</a>
-<span style="color:blue"></span> <a href="https://github.com/Melon-Xu/Melon-Xu.github.io/blob/master/files/ECCV_2024_TopoSemiSeg_Slides.pdf">[slide]</a>
+<span style="color:blue"></span> <a href="files/ECCV_2024_TopoSemiSeg_Poster.pdf">[poster]</a>
+<span style="color:blue"></span> <a href="files/ECCV_2024_TopoSemiSeg_Slides.pdf">[slide]</a>
 
 # Before Ph.D.
 <b>[Infrared and visible image fusion via parallel scene and texture learning](https://www.sciencedirect.com/science/article/abs/pii/S0031320322004101)</b> <br>
