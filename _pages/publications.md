@@ -10,6 +10,7 @@ Full list of publications can be found on [Google Scholar](https://scholar.googl
 <b>[TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model](https://arxiv.org/abs/2412.06011)</b> <br>
 <b>Meilong Xu</b>, Saumya Gupta, Xiaoling Hu, Chen Li, Shahira Abousamra, Dimitris Samaras, Prateek Prasanna, Chao Chen.<br>
 <i>CVPR 2025.</i>
+<span style="color:blue"></span> <a href="https://github.com/Melon-Xu/TopoCellGen/">[code]</a>
 
 <b>[Semi-supervised Segmentation of Histopathology Images with Noise-Aware Topological Consistency](https://arxiv.org/abs/2311.16447)</b> <br>
 <b>Meilong Xu</b>, Xiaoling Hu, Saumya Gupta, Shahira Abousamra, Chao Chen<br>
