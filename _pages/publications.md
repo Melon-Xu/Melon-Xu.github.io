@@ -9,7 +9,7 @@ Full list of publications can be found on [Google Scholar](https://scholar.googl
 
 <b>MATCH: Multi-faceted Adaptive Topo-Consistency for Semi-Supervised Histopathology Segmentation</b> <br>
 <b>Meilong Xu</b>, Xiaoling Hu, Chen Li, Shahira Abousamra, Chao Chen.<br>
-<i>Neurips 2025.</i>
+<i>NeurIPS 2025.</i>
 
 <b>[TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model](https://arxiv.org/abs/2412.06011)</b> <br>
 <b>Meilong Xu</b>, Saumya Gupta, Xiaoling Hu, Chen Li, Shahira Abousamra, Dimitris Samaras, Prateek Prasanna, Chao Chen.<br>
