@@ -15,6 +15,7 @@ Before my Ph.D., I received my B.E. degree from Wuhan University in 2022, worked
 I am broadly interested in medical image and topological data analysis, generative models and multi-modal learning.
 
 # Recent News
+* Sep 18, 2025. A paper was accepted by NeurIPS 2025.
 * Apr 04, 2025. Our CVPR paper was selected as an **Oral Presentation**!
 * Feb 26, 2025. A paper was accepted by CVPR 2025.
 * Jul 01, 2024. A paper was accepted by ECCV 2024.
