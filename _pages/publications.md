@@ -10,6 +10,7 @@ Full list of publications can be found on [Google Scholar](https://scholar.googl
 <b>MATCH: Multi-faceted Adaptive Topo-Consistency for Semi-Supervised Histopathology Segmentation</b> <br>
 <b>Meilong Xu</b>, Xiaoling Hu, Chen Li, Shahira Abousamra, Chao Chen.<br>
 <i>NeurIPS 2025.</i>
+<span style="color:blue"></span> <a href="https://github.com/Melon-Xu/MATCH/">[code]</a>
 
 <b>[TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model](https://arxiv.org/abs/2412.06011)</b> <br>
 <b>Meilong Xu</b>, Saumya Gupta, Xiaoling Hu, Chen Li, Shahira Abousamra, Dimitris Samaras, Prateek Prasanna, Chao Chen.<br>
@@ -37,3 +38,9 @@ Jiayi Ma, Linfeng Tang, <b>Meilong Xu</b>, Hao Zhang, Guobao Xiao<br>
 # Preprint
 <b>[RankByGene: Gene-Guided Histopathology Representation Learning Through Cross-Modal Ranking Consistency](https://arxiv.org/abs/2411.15076)</b> <br>
 Wentao Huang, <b>Meilong Xu</b>, Xiaoling Hu, Shahira Abousamra, Aniruddha Ganguly, Saarthak Kapse, Alisa Yurovsky, Prateek Prasanna, Tahsin Kurc, Joel Saltz, Michael L. Miller, Chao Chen<br>
+
+<b>[B\'ezier Meets Diffusion: Robust Generation Across Domains for Medical Image Segmentation](https://arxiv.org/abs/2509.22476)</b> <br>
+Chen Li, <b>Meilong Xu</b>, Xiaoling Hu, Weimin Lyu, Chao Chen<br>
+
+<b>[Towards Better Optimization For Listwise Preference in Diffusion Models](https://arxiv.org/abs/2510.01540)</b> <br>
+Jiamu Bai, Xin Yu, <b>Meilong Xu</b>, Weitao Lu, Xin Pan, Kiwan Maeng, Daniel Kifer, Jian Wang, Yu Wang<br>
