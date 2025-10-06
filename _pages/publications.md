@@ -7,7 +7,7 @@ author_profile: true
 
 Full list of publications can be found on [Google Scholar](https://scholar.google.com/citations?user=nphc_xcAAAAJ&hl=en).
 
-<b>MATCH: Multi-faceted Adaptive Topo-Consistency for Semi-Supervised Histopathology Segmentation</b> <br>
+<b>[MATCH: Multi-faceted Adaptive Topo-Consistency for Semi-Supervised Histopathology Segmentation](https://arxiv.org/abs/2510.01532)</b> <br>
 <b>Meilong Xu</b>, Xiaoling Hu, Chen Li, Shahira Abousamra, Chao Chen.<br>
 <i>NeurIPS 2025.</i>
 <span style="color:blue"></span> <a href="https://github.com/Melon-Xu/MATCH/">[code]</a>
