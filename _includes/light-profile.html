@@ -1,0 +1,14 @@
+{% assign profile = site.data.profile %}
+<header class="profile">
+  <a href="{{ '/' | relative_url }}" class="portrait-link" aria-label="Meilong Xu home"><img class="portrait" src="{{ profile.avatar | relative_url }}" width="160" height="160" alt="Meilong Xu" fetchpriority="high"></a>
+  <h1><a href="{{ '/' | relative_url }}">{{ profile.name }}</a></h1>
+  <p class="chinese-name" lang="zh">{{ profile.name_zh }}</p>
+  <p class="position">{{ profile.position }}<br><a href="{{ profile.affiliation_url }}">{{ profile.affiliation }}</a></p>
+  <a class="email" href="mailto:{{ profile.email }}" aria-label="Email Meilong Xu">{% include light-icon.html name='email' %}{{ profile.email }}</a>
+  <ul class="socials" aria-label="Profiles and CV">
+  {% for social in profile.socials %}
+    {% assign first = social.url | slice: 0 %}
+    <li><a href="{% if first == '/' %}{{ social.url | relative_url }}{% else %}{{ social.url }}{% endif %}" aria-label="{{ social.aria }}" title="{{ social.aria }}">{% include light-icon.html name=social.icon %}<span>{{ social.label }}</span></a></li>
+  {% endfor %}
+  </ul>
+</header>

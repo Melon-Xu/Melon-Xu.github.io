@@ -1,0 +1,52 @@
+name: Meilong Xu
+name_zh: 徐梅隆
+position: Ph.D. Candidate
+affiliation: Stony Brook University
+affiliation_url: https://www.stonybrook.edu/
+email: meixu@cs.stonybrook.edu
+avatar: /assets/images/meilong-xu.webp
+cv: /MeilongXu_Resume.pdf
+about:
+- I am a final-year Computer Science Ph.D. Candidate at Stony Brook University, advised by <a href="https://chaochen.github.io/">Prof.
+  Chao Chen</a> and working closely with <a href="https://huxiaoling.github.io/">Dr. Xiaoling Hu</a>. My research
+  connects multimodal foundation models, generative modeling, and structure-aware learning. I develop methods that
+  help models understand complex visual structures, adapt to new tasks, and produce more reliable outputs.
+- My recent work explores vision-language model post-training through supervised fine-tuning and reinforcement learning,
+  alongside topology-guided diffusion models and computational pathology. At Amazon Prime Video, I work on physics-grounded
+  video generation; previously, at TikTok, I worked on multimodal model training and video understanding. Before
+  my Ph.D., I received my B.Eng. from Wuhan University, where I worked with Prof. Jiayi Ma on image fusion.
+opportunity: I expect to graduate in May 2027 and am seeking full-time Research Scientist, Applied Scientist, and
+  Machine Learning Engineer roles. If you know of a suitable opportunity or would like to collaborate, please
+socials:
+- label: CV
+  aria: Download Meilong Xu’s CV (PDF)
+  icon: document
+  url: /MeilongXu_Resume.pdf
+- label: Scholar
+  aria: Meilong Xu on Google Scholar
+  icon: scholar
+  url: https://scholar.google.com/citations?user=nphc_xcAAAAJ&hl=en
+- label: GitHub
+  aria: Meilong Xu on GitHub
+  icon: github
+  url: https://github.com/melon-xu
+- label: LinkedIn
+  aria: Meilong Xu on LinkedIn
+  icon: linkedin
+  url: https://www.linkedin.com/in/meilong-melon-xu-6b3344276/
+education:
+- institution: Stony Brook University
+  degree: Ph.D. in Computer Science
+  date: Sep 2022 – Present
+  detail: 'Expected May 2027 · Advisor: Prof. Chao Chen'
+- institution: Wuhan University
+  degree: B.Eng. in Electronic Information Engineering
+  date: Sep 2018 – Jun 2022
+  detail: 'Advisor: Prof. Jiayi Ma'
+awards:
+- name: NeurIPS Scholar Award
+  date: '2025'
+- name: National Scholarship, Wuhan University
+  date: 2019–2020
+- name: First Class Scholarship, Wuhan University
+  date: 2018–2021

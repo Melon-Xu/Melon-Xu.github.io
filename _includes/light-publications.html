@@ -1,0 +1,7 @@
+{% if include.selected %}{% assign papers = site.data.publications | where: 'selected', true %}{% else %}{% assign papers = site.data.publications %}{% endif %}
+<h3 class="publication-group">Preprints</h3>
+{% for paper in papers %}{% if paper.status == 'preprint' %}{% include light-publication.html paper=paper %}{% endif %}{% endfor %}
+<h3 class="publication-group peer-reviewed">Peer-reviewed Publications</h3>
+{% assign reviewed = papers | where_exp: 'paper', "paper.status != 'preprint'" | sort: 'venue_year' | reverse %}
+{% assign years = reviewed | map: 'venue_year' | uniq %}
+{% for year in years %}<p class="year-marker">{{ year }}</p>{% for paper in papers %}{% if paper.status != 'preprint' and paper.venue_year == year %}{% include light-publication.html paper=paper %}{% endif %}{% endfor %}{% endfor %}

@@ -1,0 +1,23 @@
+{% assign paper = include.paper %}
+<article class="publication{% unless paper.teaser %} without-teaser{% endunless %}" id="{{ paper.id }}">
+  {% if paper.teaser %}<a class="teaser" href="{{ paper.teaser | relative_url }}" aria-label="View {{ paper.short_title }} figure at full size"><img src="{{ paper.teaser | relative_url }}" alt="{{ paper.teaser_alt | escape }}" width="240" height="156" loading="lazy" decoding="async"></a>{% endif %}
+  <div class="publication-body">
+    <div class="pub-meta"><span>{{ paper.venue }} {{ paper.venue_year }}</span>{% if paper.status == 'accepted' %}<span class="badge">Accepted</span>{% endif %}{% if paper.distinction %}<span class="badge oral">{{ paper.distinction }}</span>{% endif %}</div>
+    <h4><a href="{{ paper.links.Paper | default: paper.links.arXiv }}">{{ paper.title }}</a></h4>
+    <p class="authors">{% for author in paper.authors %}{% if author == site.data.profile.name %}<strong>{{ author }}</strong>{% else %}{{ author }}{% endif %}{% if paper.equal_contribution contains author %}<sup>*</sup>{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+    {% if paper.equal_contribution %}<p class="contribution-note">* Equal contribution</p>{% endif %}
+    <p class="paper-summary">{{ paper.summary }}</p>
+    <div class="paper-resources">
+      {% for resource in paper.links %}{% assign first = resource[1] | slice: 0 %}<a href="{% if first == '/' %}{{ resource[1] | relative_url }}{% else %}{{ resource[1] }}{% endif %}" aria-label="{{ resource[0] }} for {{ paper.short_title }}">{{ resource[0] }}</a>{% endfor %}
+      <details class="bibtex"><summary aria-label="BibTeX for {{ paper.short_title }}">BibTeX</summary><div class="bibtex-content">{% if paper.arxiv_id %}<p>Citation for the arXiv version.</p>{% endif %}<pre><code>{% if paper.arxiv_id %}@misc{% else %}@{% if paper.venue contains 'Transactions' or paper.venue == 'Pattern Recognition' %}article{% else %}inproceedings{% endif %}{% endif %}{ {{- paper.id -}},
+  title = { {{- paper.title | escape -}} },
+  author = { {% for author in paper.authors %}{{ author }}{% unless forloop.last %} and {% endunless %}{% endfor %} },
+  year = { {{- paper.arxiv_year | default: paper.citation_year | default: paper.venue_year -}} },
+{% if paper.arxiv_id %}  eprint = { {{- paper.arxiv_id -}} },
+  archivePrefix = {arXiv},
+{% else %}  {% if paper.venue contains 'Transactions' or paper.venue == 'Pattern Recognition' %}journal{% else %}booktitle{% endif %} = { {{- paper.venue -}} },
+{% endif %}  url = { {{- paper.links.arXiv | default: paper.links.Paper -}} }
+}</code></pre></div></details>
+    </div>
+  </div>
+</article>

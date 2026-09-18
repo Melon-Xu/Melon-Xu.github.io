@@ -1,0 +1,16 @@
+#!/bin/sh
+set -eu
+cd "$(dirname "$0")/.."
+# Prefer the isolated local runtime when present; otherwise use the caller's Ruby.
+if [ -x local/ruby/portable-ruby/3.4.5/bin/ruby ]; then
+  PATH="$PWD/local/ruby/portable-ruby/3.4.5/bin:$PWD/local/ruby-gems/bin:$PATH"
+  GEM_HOME="$PWD/local/ruby-gems"
+  GEM_PATH="$PWD/local/ruby-gems"
+  export PATH GEM_HOME GEM_PATH
+fi
+case "${1:-serve}" in
+  install) bundle config set --local path vendor/bundle; bundle install ;;
+  build) JEKYLL_ENV=production bundle exec jekyll build ;;
+  serve) JEKYLL_ENV=production bundle exec jekyll serve --destination local/preview --host 127.0.0.1 --port 4000 ;;
+  *) printf 'Usage: scripts/site [install|build|serve]\n' >&2; exit 1 ;;
+esac
