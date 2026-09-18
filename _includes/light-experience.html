@@ -1,0 +1,15 @@
+<section class="experience" id="experience" aria-labelledby="experience-heading">
+  <h2 id="experience-heading">Research Experience</h2>
+  <ol class="timeline">
+  {% for item in site.data.experience %}
+    <li>
+      <h3>{{ item.organization }}</h3>
+      {% if item.team %}<p class="team">{{ item.team }}</p>{% endif %}
+      <p class="role">{{ item.role }}</p>
+      <p class="date">{{ item.date }}</p>
+      <p class="experience-summary">{{ item.summary }}</p>
+      {% if item.mentor %}<p class="mentor">{{ item.mentor }}</p>{% endif %}
+    </li>
+  {% endfor %}
+  </ol>
+</section>

@@ -1,0 +1,280 @@
+- id: topo-r1
+  short_title: Topo-R1
+  title: 'Topo-R1: Detecting Topological Anomalies via Vision-Language Models'
+  authors:
+  - Meilong Xu
+  - Qingqiao Hu
+  - Xiaoling Hu
+  - Shahira Abousamra
+  - Xin Yu
+  - Weimin Lyu
+  - Kehan Qi
+  - Dimitris Samaras
+  - Chao Chen
+  venue: arXiv preprint
+  venue_year: 2026
+  status: preprint
+  selected: true
+  summary: Equips vision-language models with topology-aware perception capabilities through supervised fine-tuning
+    (SFT) and GRPO with topology-aware verifiable rewards.
+  arxiv_id: '2603.13054'
+  arxiv_year: 2026
+  links:
+    arXiv: https://arxiv.org/abs/2603.13054
+  teaser: /assets/teasers/topo-r1.webp
+  teaser_alt: Topo-R1 framework figure from the paper
+- id: rb-ft
+  short_title: RB-FT
+  title: 'RB-FT: Rationale-Bootstrapped Fine-Tuning for Video Classification'
+  authors:
+  - Meilong Xu
+  - Di Fu
+  - Jiaxing Zhang
+  - Gong Yu
+  - Jiayu Zheng
+  - Xiaoling Hu
+  - Dongdi Zhao
+  - Feiyang Li
+  - Chao Chen
+  - Yong Cao
+  venue: arXiv preprint
+  venue_year: 2025
+  status: preprint
+  selected: true
+  summary: Adapts vision-language models to video classification by first learning from self-generated rationales,
+    then fine-tuning on task labels without additional annotations.
+  arxiv_id: '2511.15923'
+  arxiv_year: 2025
+  links:
+    arXiv: https://arxiv.org/abs/2511.15923
+  teaser: /assets/teasers/rb-ft.webp
+  teaser_alt: RB-FT framework figure from the paper
+- id: loc-path
+  short_title: LoC-Path
+  title: 'LoC-Path: Learning to Compress for Pathology Multimodal Large Language Models'
+  authors:
+  - Qingqiao Hu
+  - Weimin Lyu
+  - Meilong Xu
+  - Kehan Qi
+  - Xiaoling Hu
+  - Saumya Gupta
+  - Jiawei Zhou
+  - Chao Chen
+  venue: arXiv preprint
+  venue_year: 2025
+  status: preprint
+  selected: false
+  summary: Compresses whole-slide visual tokens before language fusion to make pathology multimodal models more
+    efficient to train and deploy.
+  arxiv_id: '2512.05391'
+  arxiv_year: 2025
+  links:
+    arXiv: https://arxiv.org/abs/2512.05391
+- id: updiff-uda
+  short_title: UPDiff-UDA
+  title: Multi-Channel Uncertainty-Weighted Score Matching for Conditional Diffusion in Medical UDA
+  authors:
+  - Chen Li
+  - Meilong Xu
+  - Xiaoling Hu
+  - Weimin Lyu
+  - Chao Chen
+  venue: ECCV
+  venue_year: 2026
+  status: accepted
+  selected: true
+  summary: Combines confidence-weighted conditional diffusion scores and appearance adaptation to generate training
+    data robust to noisy pseudo-labels for cross-modality medical segmentation.
+  arxiv_id: '2509.22476'
+  arxiv_year: 2025
+  links:
+    arXiv: https://arxiv.org/abs/2509.22476
+  teaser: /assets/teasers/updiff-uda.webp
+  teaser_alt: UPDiff-UDA framework figure from the paper
+- id: rankbygene
+  short_title: RankByGene
+  title: 'RankByGene: Gene-Guided Histopathology Representation Learning Through Cross-Modal Ranking Consistency'
+  authors:
+  - Wentao Huang
+  - Meilong Xu
+  - Xiaoling Hu
+  - Shahira Abousamra
+  - Aniruddha Ganguly
+  - Saarthak Kapse
+  - Alisa Yurovsky
+  - Prateek Prasanna
+  - Tahsin Kurc
+  - Joel Saltz
+  - Michael L. Miller
+  - Chao Chen
+  venue: IEEE Transactions on Medical Imaging (TMI)
+  venue_year: 2026
+  status: accepted
+  selected: true
+  summary: Aligns histology and gene-expression representations through cross-modal ranking consistency, with teacher–student
+    self-distillation stabilizing image features.
+  arxiv_id: '2411.15076'
+  arxiv_year: 2024
+  links:
+    arXiv: https://arxiv.org/abs/2411.15076
+    Code: https://github.com/winston52/RankByGene
+    Paper: https://ieeexplore.ieee.org/document/11662129
+  teaser: /assets/teasers/rankbygene.webp
+  teaser_alt: RankByGene framework figure from the paper
+- id: diffusion-lpo
+  short_title: Diffusion-LPO
+  title: Towards Better Optimization For Listwise Preference in Diffusion Models
+  authors:
+  - Jiamu Bai
+  - Xin Yu
+  - Meilong Xu
+  - Weitao Lu
+  - Xin Pan
+  - Kiwan Maeng
+  - Daniel Kifer
+  - Jian Wang
+  - Yu Wang
+  venue: ICLR
+  venue_year: 2026
+  status: published
+  selected: true
+  summary: Extends diffusion preference optimization from pairs to ranked image lists, aligning generation, editing,
+    and personalized outputs with human preferences.
+  arxiv_id: '2510.01540'
+  arxiv_year: 2025
+  links:
+    arXiv: https://arxiv.org/abs/2510.01540
+    Paper: https://openreview.net/forum?id=ippWaS9PG9
+  teaser: /assets/teasers/diffusion-lpo.webp
+  teaser_alt: Diffusion-LPO generated image examples from the paper
+- id: match
+  short_title: MATCH
+  title: 'MATCH: Multi-faceted Adaptive Topo-Consistency for Semi-Supervised Histopathology Segmentation'
+  authors:
+  - Meilong Xu
+  - Xiaoling Hu
+  - Shahira Abousamra
+  - Chen Li
+  - Chao Chen
+  venue: NeurIPS
+  venue_year: 2025
+  status: published
+  selected: true
+  summary: Matches persistent topological features across stochastic predictions and training snapshots to improve
+    structural consistency in semi-supervised histopathology segmentation.
+  arxiv_id: '2510.01532'
+  arxiv_year: 2025
+  links:
+    arXiv: https://arxiv.org/abs/2510.01532
+    Code: https://github.com/Melon-Xu/MATCH
+    Paper: https://openreview.net/forum?id=bTgxLGMGdF
+  equal_contribution:
+  - Meilong Xu
+  - Xiaoling Hu
+  teaser: /assets/teasers/match.webp
+  teaser_alt: MATCH framework figure from the paper
+- id: topocellgen
+  short_title: TopoCellGen
+  title: 'TopoCellGen: Generating Histopathology Cell Topology with a Diffusion Model'
+  authors:
+  - Meilong Xu
+  - Saumya Gupta
+  - Xiaoling Hu
+  - Chen Li
+  - Shahira Abousamra
+  - Dimitris Samaras
+  - Prateek Prasanna
+  - Chao Chen
+  venue: CVPR
+  venue_year: 2025
+  status: published
+  selected: true
+  summary: Integrates topological constraints into diffusion models to generate multi-class cell layouts and introduces
+    Topological Fréchet Distance to evaluate their structure.
+  arxiv_id: '2412.06011'
+  arxiv_year: 2024
+  links:
+    arXiv: https://arxiv.org/abs/2412.06011
+    Code: https://github.com/Melon-Xu/TopoCellGen
+    Paper: https://openaccess.thecvf.com/content/CVPR2025/html/Xu_TopoCellGen_Generating_Histopathology_Cell_Topology_with_a_Diffusion_Model_CVPR_2025_paper.html
+    Slides: https://cvpr.thecvf.com/media/cvpr-2025/Slides/33604.pdf
+  distinction: Oral
+  teaser: /assets/teasers/topocellgen.webp
+  teaser_alt: TopoCellGen framework figure from the paper
+- id: toposemiseg
+  short_title: TopoSemiSeg
+  title: Semi-supervised Segmentation of Histopathology Images with Noise-Aware Topological Consistency
+  authors:
+  - Meilong Xu
+  - Xiaoling Hu
+  - Saumya Gupta
+  - Shahira Abousamra
+  - Chao Chen
+  venue: ECCV
+  venue_year: 2024
+  status: published
+  selected: true
+  summary: Learns from unlabeled histopathology images with noise-aware topological consistency, separating reliable
+    structural signals from noisy teacher and student predictions.
+  arxiv_id: '2311.16447'
+  arxiv_year: 2023
+  links:
+    arXiv: https://arxiv.org/abs/2311.16447
+    Code: https://github.com/Melon-Xu/TopoSemiSeg
+    Slides: /files/ECCV_2024_TopoSemiSeg_Slides.pdf
+    Poster: /files/ECCV_2024_TopoSemiSeg_Poster.pdf
+  teaser: /assets/teasers/toposemiseg.webp
+  teaser_alt: TopoSemiSeg framework figure from the paper
+- id: topological-imaging
+  short_title: topological-imaging
+  title: A Topological Comparison of the Fluorescence Imitating Brightfield Imaging and H&E Imaging
+  authors:
+  - Meilong Xu
+  - Nate Anderson
+  - Richard M. Levenson
+  - Prateek Prasanna
+  - Chao Chen
+  venue: TGI3 Workshop at MICCAI
+  venue_year: 2024
+  status: published
+  selected: false
+  summary: Compares tissue structure in fluorescence imitating brightfield and H&E images through topological analysis.
+  links:
+    Paper: https://link.springer.com/chapter/10.1007/978-3-031-73967-5_12
+  citation_year: 2025
+- id: pstlfusion
+  short_title: pstlfusion
+  title: Infrared and visible image fusion via parallel scene and texture learning
+  authors:
+  - Meilong Xu
+  - Linfeng Tang
+  - Hao Zhang
+  - Jiayi Ma
+  venue: Pattern Recognition
+  venue_year: 2022
+  status: published
+  selected: false
+  summary: Uses parallel scene and texture learning to combine complementary information from infrared and visible
+    images.
+  links:
+    Paper: https://www.sciencedirect.com/science/article/abs/pii/S0031320322004101
+    Code: https://github.com/Melon-Xu/PSTLFusion/
+- id: stdfusionnet
+  short_title: stdfusionnet
+  title: 'STDFusionNet: An Infrared and Visible Image Fusion Network Based on Salient Target Detection'
+  authors:
+  - Jiayi Ma
+  - Linfeng Tang
+  - Meilong Xu
+  - Hao Zhang
+  - Guobao Xiao
+  venue: IEEE Transactions on Instrumentation and Measurement
+  venue_year: 2021
+  status: published
+  selected: false
+  summary: Incorporates salient target detection into infrared and visible image fusion to preserve informative
+    scene content.
+  links:
+    Paper: https://ieeexplore.ieee.org/document/9416507
+    Code: https://github.com/Linfeng-Tang/STDFusionNet/

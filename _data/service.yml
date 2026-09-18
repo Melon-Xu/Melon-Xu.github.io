@@ -1,0 +1,13 @@
+conferences:
+- CVPR
+- NeurIPS
+- ICLR
+- ICML
+- ICCV
+- ECCV
+- ACL
+- EMNLP
+journals:
+- IEEE TPAMI
+- IEEE TMI
+- IEEE TNNLS

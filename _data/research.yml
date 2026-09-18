@@ -1,0 +1,25 @@
+- title: Multimodal Foundation Models & Post-Training
+  description: Adapting vision-language models for video understanding and structural reasoning through supervised
+    fine-tuning and reinforcement learning.
+  papers:
+  - topo-r1
+  - rb-ft
+- title: Generative AI & Diffusion Models
+  description: Building structure-aware diffusion models and aligning generation with domain knowledge and human
+    preferences.
+  papers:
+  - topocellgen
+  - updiff-uda
+  - diffusion-lpo
+- title: Trustworthy & Structure-Aware Learning
+  description: Preserving meaningful topology and structural consistency while learning from limited labels and
+    noisy predictions.
+  papers:
+  - match
+  - toposemiseg
+  - topo-r1
+- title: Multimodal Learning for Healthcare
+  description: Connecting histopathology with gene expression and language to learn informative, efficient representations.
+  papers:
+  - rankbygene
+  - loc-path

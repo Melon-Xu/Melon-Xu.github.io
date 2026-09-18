@@ -1,0 +1,43 @@
+---
+layout: minimal-light
+home: true
+permalink: /
+redirect_from:
+  - /about/
+  - /about.html
+---
+<section class="intro" aria-labelledby="about-heading">
+  <p class="eyebrow">Multimodal AI · Generative Models · Topology</p>
+  <h2 id="about-heading">About Me</h2>
+  {% for paragraph in site.data.profile.about %}<p>{{ paragraph }}</p>{% endfor %}
+  <aside class="opportunity" aria-label="Career opportunities"><span class="opportunity-label">Open to opportunities · May 2027</span><p>{{ site.data.profile.opportunity }} <a href="mailto:{{ site.data.profile.email }}">email me</a>.</p></aside>
+</section>
+<div class="main-content">
+<section id="research" aria-labelledby="research-heading">
+  <h2 id="research-heading">Research Interests</h2>
+  <div class="research-list">
+  {% for item in site.data.research %}
+    <div class="research-item"><h3>{{ item.title }}</h3><p>{{ item.description }}</p><p class="related-papers">{% for paper_id in item.papers %}{% assign paper = site.data.publications | where: 'id', paper_id | first %}<a href="{{ '/publications/' | relative_url }}#{{ paper.id }}">{{ paper.short_title }}</a>{% endfor %}</p></div>
+  {% endfor %}
+  </div>
+</section>
+<section id="news" aria-labelledby="news-heading">
+  <h2 id="news-heading">Recent News</h2>
+  <ul class="news-list">{% for item in site.data.news limit:6 %}{% include light-news-item.html item=item %}{% endfor %}</ul>
+  {% if site.data.news.size > 6 %}<details class="older-news"><summary><span class="when-closed">Show more news</span><span class="when-open">Show fewer news items</span></summary><ul class="news-list">{% for item in site.data.news offset:6 %}{% include light-news-item.html item=item %}{% endfor %}</ul></details>{% endif %}
+</section>
+<section id="publications" aria-labelledby="publications-heading">
+  <div class="section-heading"><h2 id="publications-heading">Selected Publications</h2><a href="{{ '/publications/' | relative_url }}">All publications <span aria-hidden="true">↗</span></a></div>
+  {% include light-publications.html selected=true %}
+</section>
+<section id="education" aria-labelledby="education-heading">
+  <h2 id="education-heading">Education</h2>
+  {% for item in site.data.profile.education %}<div class="education-item"><div><h3>{{ item.institution }}</h3><p>{{ item.degree }}</p><p class="muted">{{ item.detail }}</p></div><span class="date">{{ item.date }}</span></div>{% endfor %}
+</section>
+<section id="service" aria-labelledby="service-heading">
+  <h2 id="service-heading">Academic Service</h2>
+  <h3 class="service-label">Conference Reviewer</h3><ul class="venue-list">{% for venue in site.data.service.conferences %}<li>{{ venue }}</li>{% endfor %}</ul>
+  {% if site.data.service.journals.size > 0 %}<h3 class="service-label">Journal Reviewer</h3><ul class="venue-list">{% for venue in site.data.service.journals %}<li>{{ venue }}</li>{% endfor %}</ul>{% endif %}
+</section>
+{% if site.data.profile.awards.size > 0 %}<section id="awards" aria-labelledby="awards-heading"><h2 id="awards-heading">Awards & Honors</h2><ul class="awards-list">{% for award in site.data.profile.awards %}<li><span>{{ award.name }}</span><span class="date">{{ award.date }}</span></li>{% endfor %}</ul></section>{% endif %}
+</div>

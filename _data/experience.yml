@@ -1,0 +1,15 @@
+- organization: Amazon
+  team: Prime Video
+  role: Applied Scientist Intern
+  date: May 2026 – Present
+  summary: Physics-grounded video generation with simulation-based planning and verification.
+- organization: TikTok
+  team: Data-TnS-Algo
+  role: Research Scientist Intern
+  date: May – Sep 2025
+  summary: VLM post-training and multimodal foundation model training for video understanding and moderation.
+- organization: Stony Brook University
+  role: Graduate Research Assistant
+  date: Sep 2022 – Present
+  summary: Topology-aware learning, diffusion models, and VLM post-training.
+  mentor: 'Advisor: Prof. Chao Chen'
