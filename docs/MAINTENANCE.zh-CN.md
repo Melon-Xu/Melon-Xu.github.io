@@ -49,7 +49,7 @@
 
 `status` 支持 `preprint`、`accepted`、`published`。录用时同时更新 `venue`、`venue_year` 和 `status`，保留 arXiv 链接；正式出版后改为 `published`。`venue_year` 是会议/期刊分组年份，不是 arXiv 初次上传年。`arxiv_year` 只用于明确标注的 arXiv BibTeX。无 arXiv 的论文默认生成基本出版引用；若正式引用年份与会议年份不同，使用 `citation_year`（现有 TGI3 条目即如此）。
 
-`selected: true` 控制首页精选，完整页自动显示全部条目。增删精选后如有意改变 8/12 篇数量，同步更新 `scripts/check_site.py` 的数量断言。论文稳定 `id` 不随标题修改而更改，避免破坏已分享的锚点。
+`selected: true` 控制首页精选，完整页自动显示全部条目。增删精选后如有意改变当前 9/12 篇数量，同步更新 `scripts/check_site.py` 的数量断言。论文稳定 `id` 不随标题修改而更改，避免破坏已分享的锚点。
 
 `links` 的键直接成为按钮文字：Paper、arXiv、Code、Project、Slides、Poster 等。不存在就删除该键，不留空 URL、平台首页或 `#`。只有实际发布实现代码才用 Code。BibTeX 自动由同一条数据生成，无须维护第二份作者信息。
 

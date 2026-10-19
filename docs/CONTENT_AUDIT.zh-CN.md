@@ -31,7 +31,7 @@
 | --- | --- | --- |
 | `topo-r1` | https://arxiv.org/abs/2603.13054 ，用户后续明确说明 | 2026 预印本；完整 9 位作者；贡献表述为通过 SFT 和带 topology-aware verifiable rewards 的 GRPO，使 VLM 具备 topology-aware perception capability；未写会议录用或在投信息 |
 | `rb-ft` | https://arxiv.org/abs/2511.15923 | 2025 预印本；本人第一作者和完整 10 位作者；先 rationale 再 label 的两阶段微调 |
-| `loc-path` | https://arxiv.org/abs/2512.05391 | 保留在完整列表，2025 预印本；使用最新摘要的 compress-before-fusion 概述 |
+| `loc-path` | https://arxiv.org/abs/2512.05391 ，用户后续确认录用并要求首页展示 | WACV 2026 Accepted；纳入首页精选及完整列表的 peer-reviewed 分组；使用 compress-before-fusion 概述，保留 2025 arXiv 版本引用；不添加 News |
 | `updiff-uda` | https://arxiv.org/abs/2509.22476 | 最新标题已改为 Multi-Channel Uncertainty-Weighted Score Matching for Conditional Diffusion in Medical UDA；页面明确 Accepted by ECCV 2026；替换旧 Bézier 预印本，不重复显示 |
 | `rankbygene` | https://arxiv.org/abs/2411.15076 ，https://ieeexplore.ieee.org/document/11662129 | arXiv 明确 accepted by TMI 2026；出版社页面受验证限制，不填卷期页码/DOI；保留 Paper 和 arXiv |
 | `diffusion-lpo` | CV，https://arxiv.org/abs/2510.01540 ，https://openreview.net/forum?id=ippWaS9PG9 ，https://openreview.net/pdf/ffaf5a65d1c1fbb39138127879e424007a9c1472.pdf | CV 与官方 PDF 的 ICLR 2026 声明一致，从原预印本迁移到 peer-reviewed；OpenReview forum 受访问验证限制 |
@@ -42,7 +42,7 @@
 | `pstlfusion` | https://www.sciencedirect.com/science/article/abs/pii/S0031320322004101 ，原仓库、CV | Pattern Recognition 2022（官方索引为 Vol.132, Dec 2022）；作者和代码保留；直接 HTTP 请求 403，搜索索引可读取元数据 |
 | `stdfusionnet` | https://ieeexplore.ieee.org/document/9416507 ，原仓库、作者代码库 | IEEE TIM 2021；保留原作者顺序及实际代码。出版社直接访问受验证限制 |
 
-首页 8 篇：Topo-R1、RB-FT、UPDiff-UDA、RankByGene、Diffusion-LPO、MATCH、TopoCellGen、TopoSemiSeg。完整页 12 篇。各页由同一 YAML 渲染，不重复维护状态或作者。
+首页 9 篇：Topo-R1、RB-FT、LoC-Path、UPDiff-UDA、RankByGene、Diffusion-LPO、MATCH、TopoCellGen、TopoSemiSeg。完整页 12 篇。各页由同一 YAML 渲染，不重复维护状态或作者。
 
 arXiv BibTeX 按该版本源生成并明确标注“Citation for the arXiv version.”，不把未核实的出版信息补入引用。
 
@@ -54,6 +54,7 @@ arXiv BibTeX 按该版本源生成并明确标注“Citation for the arXiv versi
 | --- | --- |
 | Topo-R1 | arXiv PDF 第 2 页 Figure 1 |
 | RB-FT | 第 4 页 Figure 1 |
+| LoC-Path | arXiv 2512.05391v3 PDF 第 5 页 Figure 2；完整保留 (a) 主流程与 (b) Resampler MAE 预训练流程 |
 | UPDiff-UDA | 第 3 页 Figure 1 |
 | RankByGene | 第 3 页 Figure 2 |
 | Diffusion-LPO | 第 1 页 Figure 1 |
@@ -61,7 +62,7 @@ arXiv BibTeX 按该版本源生成并明确标注“Citation for the arXiv versi
 | TopoCellGen | 第 4 页 Figure 2 |
 | TopoSemiSeg | 第 5 页 Figure 3 |
 
-8 张 WebP 共 473,576 bytes，统一容器使用 `object-fit: contain`，点击可查看大图。头像复用 `images/xml_avatar.png`，保持等比例自然裁切；原图片路径保留。
+9 张 WebP 共 545,634 bytes，统一容器使用 `object-fit: contain`，点击可查看大图。头像复用 `images/xml_avatar.png`，保持等比例自然裁切；原图片路径保留。
 
 ## 新闻日期
 

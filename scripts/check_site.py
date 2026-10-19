@@ -57,7 +57,7 @@ for url in ['/','/publications/','/cv/','/about/','/about.html','/resume/','/res
     if not route(url).exists():errors.append(f'Missing compatibility route: {url}')
 if (ROOT/'MeilongXu_Resume.pdf').read_bytes()!=(OUT/'MeilongXu_Resume.pdf').read_bytes():errors.append('CV differs from supplied PDF')
 home=pages[OUT/'index.html'];allpubs=pages[OUT/'publications/index.html']
-if len(home.articles)!=8 or len(allpubs.articles)!=12:errors.append('Unexpected publication count')
+if len(home.articles)!=9 or len(allpubs.articles)!=12:errors.append('Unexpected publication count')
 for term in ['Ph.D. Candidate','May 2027','Research Scientist','Applied Scientist','Machine Learning Engineer','ECCV 2026','(TMI) 2026','Topo-R1','Academic Service']:
     if term not in ' '.join(home.text):errors.append(f'Missing required content: {term}')
 for p in [OUT/'sitemap.xml',OUT/'robots.txt']:

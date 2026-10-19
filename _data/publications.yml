@@ -64,13 +64,15 @@
   venue: WACV
   venue_year: 2026
   status: accepted
-  selected: false
+  selected: true
   summary: Compresses whole-slide visual tokens before language fusion to make pathology multimodal models more
     efficient to train and deploy.
   arxiv_id: '2512.05391'
   arxiv_year: 2025
   links:
     arXiv: https://arxiv.org/abs/2512.05391
+  teaser: /assets/teasers/loc-path.webp
+  teaser_alt: LoC-Path framework showing the end-to-end pipeline and Resampler MAE pretraining (Figure 2)
 - id: updiff-uda
   short_title: UPDiff-UDA
   title: Multi-Channel Uncertainty-Weighted Score Matching for Conditional Diffusion in Medical UDA
